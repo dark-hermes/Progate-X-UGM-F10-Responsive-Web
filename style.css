@@ -29,17 +29,6 @@ section{
     position: relative;
 }
 
-.heading::after{
-    content: "";
-    width: 10rem;
-    height: 0.8rem;
-    background-color: #17e9e0;
-    position: absolute;
-    bottom: -2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 2rem;
-}
 
 .card-wrapper{
     display: flex;
