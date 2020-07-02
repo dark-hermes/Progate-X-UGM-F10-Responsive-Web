@@ -178,6 +178,20 @@ section{
     }
 }
 
+@media (min-width: 1000px){
+    .card-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .card{
+        margin: 2rem;
+    }
+}
+
 
 /* FOOTER by BAYU */
 .header {
