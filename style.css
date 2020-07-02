@@ -69,7 +69,7 @@ a{
         overflow-y: hidden;
     }
     .nav h1{
-        font-size: 18px;
+        font-size: 6vw;
         margin-top: 10px;
         margin-bottom: 14px;
     }
@@ -95,16 +95,15 @@ a{
 
 
 .top-text h1{
-    font-size: 40px;
+    font-size: 6vw;
     margin: 0;
     color: rgba(255,255,255,0.7);
 }
 
 .top-text h3{
     margin: 6px;
-    font-size: 18px;
-    color: #fff;
-    opacity: 0.5
+    font-size: 20px;
+    opacity: 0.5;
     line-height: 30px;
 }
 
@@ -123,6 +122,7 @@ a{
 
 .top-wrapper .btn:hover{
     transform: translateY(-2px);
+}
 
 .top-wrapper .btn a{
     font-size: 15px;
@@ -131,7 +131,7 @@ a{
 
 .top-text h1 span{
     color: #e0501b;
-    font-size: 25px;
+    font-size: 4vw;
 }
 
 .container {
