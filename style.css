@@ -103,7 +103,8 @@ a{
 .top-text h3{
     margin: 6px;
     font-size: 18px;
-    opacity: 0.5;
+    color: #fff;
+    opacity: 0.5
     line-height: 30px;
 }
 
