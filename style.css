@@ -18,6 +18,10 @@ a{
     color: #fff;
 }
 
+
+
+
+/* NAVIGATION BAR */
 .nav{
     position: fixed;
     z-index: 1000;
@@ -81,6 +85,11 @@ a{
         color: #333;
     }
 }
+
+
+
+
+
 /* TOP CONTENT */
 .top-wrapper{
     display: flex;
@@ -135,6 +144,13 @@ a{
     font-size: 4vw;
 }
 
+
+
+
+
+
+
+/* MAIN CONTENT */
 .container {
 	width: 100%;
 	margin: 0 auto;
@@ -180,28 +196,6 @@ a{
 	width: 70%;
 	font-size: 1.5rem;
 }
-.partnership-wrapper{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-}
-
-.partnership-logo{
-    width: 35rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 0;
-    overflow: hidden;
-}
-
-
-.partnership-logo img{
-    height: 150px;
-}
-
 
 
 @media (max-width:1000px){
@@ -239,6 +233,8 @@ a{
 
 
 
+
+/* MEMBER CARD */
 section{
     padding: 10rem 0;
     background-color: #fff;
@@ -255,8 +251,6 @@ section .heading{
     position: relative;
     border-top: 1px solid rgb(238, 235, 235);
 }
-
-
 
 .card-wrapper{
     display: flex;
@@ -382,6 +376,33 @@ section .heading{
     transform: scale(1.3);
 }
 
+.partnership-wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.partnership-logo{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+
+.partnership-logo img{
+    height: 150px;
+    transition: all .5s;
+}
+
+.partnership-logo img:hover{
+    transform: scale(1.2);
+}
+
 @media (min-width: 360px){
     .card-wrapper{
         flex-direction: row;
@@ -421,7 +442,10 @@ section .heading{
 }
 
 
-/* FOOTER by BAYU */
+
+
+
+/* FOOTER */
 .footer {
     height: 320px;
     background-color: #fccd04;
