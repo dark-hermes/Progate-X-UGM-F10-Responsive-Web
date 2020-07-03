@@ -224,7 +224,7 @@ a{
 @media (max-width:670px){
     .lesson-wrapper{
         flex-wrap: wrap;
-        height: 1080px;
+        height: 1200px;
         flex-direction: column;
     }
 
