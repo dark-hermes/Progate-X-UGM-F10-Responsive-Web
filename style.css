@@ -182,10 +182,13 @@ a{
 }
 .partnership-wrapper{
     display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .partnership-logo{
-    width: 33.3%;
+    width: 35rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -394,10 +397,6 @@ section .heading{
 
     .partnership-logo{
         margin: 2rem .5rem
-    }
-
-    .partnership-logo{
-        width: 100%;
     }
 
     
