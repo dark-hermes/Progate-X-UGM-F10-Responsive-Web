@@ -180,6 +180,25 @@ a{
 	width: 70%;
 	font-size: 1.5rem;
 }
+.partnership-wrapper{
+    display: flex;
+}
+
+.partnership-logo{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+
+.partnership-logo img{
+    height: 150px;
+}
+
 
 
 @media (max-width:1000px){
@@ -231,6 +250,7 @@ section .heading{
     text-align: center;
     color: #333;
     position: relative;
+    border-top: 1px solid rgb(238, 235, 235);
 }
 
 
@@ -372,6 +392,14 @@ section .heading{
         margin: 2rem .5rem;
     }
 
+    .partnership-logo{
+        margin: 2rem .5rem
+    }
+
+    .partnership-logo{
+        width: 100%;
+    }
+
     
 }
 
@@ -385,6 +413,10 @@ section .heading{
     }
 
     .card{
+        margin: 2rem;
+    }
+
+    .partnership-logo{
         margin: 2rem;
     }
 }
